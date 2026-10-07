@@ -1,0 +1,41 @@
+apify:
+  actor_id: "scrapemint/forexfactory-economic-calendar"
+  currencies: ["USD"]
+  impact_levels: ["high"]     # add "medium" if you want more events (check pricing)
+  window_days: 180
+  chunk_days: 30              # actor max span per custom run
+  end_date: null              # null = today; or "2026-10-07" to freeze the window
+  max_retries: 3              # last retry switches to residential proxy
+  max_events: 1000
+
+events:
+  # regex applied to the event title; adjust after looking at the title counts
+  keep_pattern: "CPI|Non-Farm|Unemployment|Average Hourly|FOMC|Federal Funds|Interest Rate|PPI|GDP|Retail Sales|PCE"
+
+calendar:
+  # ForexFactory "display zone" seen in the test run: NFP printed at 7:30 on 2026-10-02,
+  # i.e. 8:30 ET shown in Central time. Verified by the 08:30 ET sanity check in clean_events.
+  source_tz: "America/Chicago"
+
+tavily:
+  queries:
+    - "US inflation CPI Federal Reserve interest rate outlook"
+    - "US jobs report labor market economy"
+    - "FOMC Treasury yields stock market economy"
+  window_days: 180
+  step_days: 7            # one search per query per week of history
+  max_results: 8
+  topic: "general"        # general supports start_date/end_date; latest-news call uses topic=news
+  search_depth: "basic"
+
+strategy:
+  ticker: "SPY"
+  fast: [5, 10, 20]
+  slow: [30, 50, 100]
+  event_filter: ["none", "flat_on_event_days"]
+
+model:
+  min_train_days: 40
+  retrain_every: 5
+  embargo_days: 1
+  top_k: 3

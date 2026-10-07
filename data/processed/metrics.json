@@ -1,0 +1,43 @@
+{
+  "metrics": {
+    "model_topk": {
+      "days": 85.0,
+      "total_return_%": -6.634,
+      "ann_return_%": -18.414,
+      "ann_vol_%": 10.05,
+      "sharpe": -1.975,
+      "sortino": -2.465,
+      "max_drawdown_%": -9.276,
+      "hit_rate_%": 43.529
+    },
+    "baseline_topk": {
+      "days": 85.0,
+      "total_return_%": -5.284,
+      "ann_return_%": -14.866,
+      "ann_vol_%": 8.513,
+      "sharpe": -1.848,
+      "sortino": -2.473,
+      "max_drawdown_%": -8.093,
+      "hit_rate_%": 37.647
+    },
+    "equal_weight": {
+      "days": 85.0,
+      "total_return_%": -2.662,
+      "ann_return_%": -7.687,
+      "ann_vol_%": 7.377,
+      "sharpe": -1.048,
+      "sortino": -1.405,
+      "max_drawdown_%": -5.399,
+      "hit_rate_%": 47.059
+    }
+  },
+  "mean_rank_ic_model": -0.09534743869729202,
+  "mean_rank_ic_baseline": -0.10264892822208191,
+  "rmse_model": 0.007993068146256388,
+  "rmse_baseline": 0.007397655892618996,
+  "sharpe_diff_ci95": [
+    -2.7286308726644126,
+    2.612833583848125
+  ],
+  "price_source": "yfinance SPY"
+}

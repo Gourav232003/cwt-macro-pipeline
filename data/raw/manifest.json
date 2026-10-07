@@ -1,0 +1,377 @@
+{
+  "actor_id": "scrapemint/forexfactory-economic-calendar",
+  "pulled_at_utc": "2026-10-07T21:39:02.890585+00:00",
+  "window": [
+    "2026-04-10",
+    "2026-10-07"
+  ],
+  "chunks": [
+    {
+      "start": "2026-04-10",
+      "end": "2026-04-16",
+      "run_id": "zkZzAG9fhYwrbFst0",
+      "rows": 4,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-04-10",
+        "endDate": "2026-04-16",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-04-17",
+      "end": "2026-04-23",
+      "run_id": "0GZvTYKstj7vEocuI",
+      "rows": 3,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-04-17",
+        "endDate": "2026-04-23",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-04-24",
+      "end": "2026-04-30",
+      "run_id": "7Pjy8bcr5RFt9G5gd",
+      "rows": 6,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-04-24",
+        "endDate": "2026-04-30",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-05-08",
+      "end": "2026-05-14",
+      "run_id": "gn60ZQ9K94oQwu8HD",
+      "rows": 5,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-05-08",
+        "endDate": "2026-05-14",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-05-15",
+      "end": "2026-05-21",
+      "run_id": "tS7xSkXfUdhRS986q",
+      "rows": 1,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-05-15",
+        "endDate": "2026-05-21",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-05-22",
+      "end": "2026-05-28",
+      "run_id": "3O1BsDWsrXBuPjhfI",
+      "rows": 2,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-05-22",
+        "endDate": "2026-05-28",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-06-05",
+      "end": "2026-06-11",
+      "run_id": "L0lyxRE5Xgr40X4aQ",
+      "rows": 5,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-06-05",
+        "endDate": "2026-06-11",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-06-19",
+      "end": "2026-06-25",
+      "run_id": "xaj6fZYEFOLtkvpMU",
+      "rows": 2,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-06-19",
+        "endDate": "2026-06-25",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-06-26",
+      "end": "2026-07-02",
+      "run_id": "g2N2fPU5R3jC6Uumc",
+      "rows": 3,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-06-26",
+        "endDate": "2026-07-02",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-07-03",
+      "end": "2026-07-09",
+      "run_id": "OQfOvl5rsqEEJkbSl",
+      "rows": 2,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-07-03",
+        "endDate": "2026-07-09",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-07-10",
+      "end": "2026-07-16",
+      "run_id": "GwQXg0ZUYbqWJTJn6",
+      "rows": 5,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-07-10",
+        "endDate": "2026-07-16",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-07-24",
+      "end": "2026-07-30",
+      "run_id": "qvvj35soW0dZMFEuc",
+      "rows": 2,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-07-24",
+        "endDate": "2026-07-30",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-07-31",
+      "end": "2026-08-06",
+      "run_id": "KbiP4Ctruc33WL1VC",
+      "rows": 1,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-07-31",
+        "endDate": "2026-08-06",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000,
+        "proxyConfiguration": {
+          "useApifyProxy": true,
+          "apifyProxyGroups": [
+            "RESIDENTIAL"
+          ]
+        }
+      }
+    },
+    {
+      "start": "2026-08-07",
+      "end": "2026-08-13",
+      "run_id": "wUsXanRPAqK66rCVl",
+      "rows": 9,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-08-07",
+        "endDate": "2026-08-13",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-08-14",
+      "end": "2026-08-20",
+      "run_id": "ZoRBdJrJdKp0G1UAI",
+      "rows": 1,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-08-14",
+        "endDate": "2026-08-20",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-08-21",
+      "end": "2026-08-27",
+      "run_id": "AOvslD8eigoxzTIKD",
+      "rows": 2,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-08-21",
+        "endDate": "2026-08-27",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-08-28",
+      "end": "2026-09-03",
+      "run_id": "k4DipPSNMe4S7e5TB",
+      "rows": 2,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-08-28",
+        "endDate": "2026-09-03",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-09-04",
+      "end": "2026-09-10",
+      "run_id": "zJgbBHtRunHbiggXd",
+      "rows": 5,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-09-04",
+        "endDate": "2026-09-10",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-09-11",
+      "end": "2026-09-17",
+      "run_id": "JA0UyDOIaKh1SPfOb",
+      "rows": 4,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-09-11",
+        "endDate": "2026-09-17",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    },
+    {
+      "start": "2026-10-02",
+      "end": "2026-10-07",
+      "run_id": "znROZYoxKGQw10b3P",
+      "rows": 4,
+      "run_input": {
+        "range": "custom",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-07",
+        "currencies": [
+          "USD"
+        ],
+        "impactLevels": [
+          "high"
+        ],
+        "maxEvents": 1000
+      }
+    }
+  ],
+  "last_pull_utc": "2026-10-07T22:38:36.142115+00:00"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "eventId": "ff-146527",
+    "url": "https://www.forexfactory.com/calendar",
+    "date": "2026-08-19",
+    "time": "13:00",
+    "timestamp": "2026-08-19T13:00:00",
+    "currency": "USD",
+    "impact": "high",
+    "title": "FOMC Meeting Minutes",
+    "actual": null,
+    "actualNumeric": null,
+    "forecast": null,
+    "forecastNumeric": null,
+    "previous": null,
+    "previousNumeric": null,
+    "revised": null,
+    "revisedNumeric": null,
+    "unit": null,
+    "isAllDay": false,
+    "source": null,
+    "frequency": null,
+    "description": null,
+    "scrapedAt": "2026-10-07T22:04:47.186Z",
+    "displayTimezone": "ForexFactory display zone"
+  }
+]

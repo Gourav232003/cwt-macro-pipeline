@@ -1,0 +1,27 @@
+[
+  {
+    "eventId": "ff-146582",
+    "url": "https://www.forexfactory.com/calendar",
+    "date": "2026-08-03",
+    "time": "9:00",
+    "timestamp": "2026-08-03T09:00:00",
+    "currency": "USD",
+    "impact": "high",
+    "title": "ISM Manufacturing PMI",
+    "actual": "55.6",
+    "actualNumeric": 55.6,
+    "forecast": "54.0",
+    "forecastNumeric": 54,
+    "previous": "53.3",
+    "previousNumeric": 53.3,
+    "revised": null,
+    "revisedNumeric": null,
+    "unit": null,
+    "isAllDay": false,
+    "source": null,
+    "frequency": null,
+    "description": null,
+    "scrapedAt": "2026-10-07T22:02:11.672Z",
+    "displayTimezone": "ForexFactory display zone"
+  }
+]
